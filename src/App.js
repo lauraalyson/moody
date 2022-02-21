@@ -1,4 +1,6 @@
 import './App.css';
+import ResultsGrid from './Components/ResultsGrid';
+import SearchBar from './Components/SearchBar';
 
 function App() {
   return (
@@ -23,6 +25,20 @@ function App() {
           <li>Current News API</li>
 
 			</body>
+
+      {/* Search Bar */}
+      <SearchBar />
+
+      {/*  */}
+      <ResultsGrid />
+
+      {/*  */}
+      
+      <footer>
+        <p>About</p>
+        <p>Documentation</p>
+        <p>License</p>
+      </footer>
 		</div>
 	)
 }
