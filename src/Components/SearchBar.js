@@ -2,13 +2,14 @@ import React, {useState} from 'react'
 import { getWeather } from '../api/apiConfig'
 
 function SearchBar() {
-	const [results, setResults] = useState([])
+	const [results, setResults] = useState('')
 	const [location, setLocation] = useState('')
 
 	const search = () => {
 		getWeather(location)
 			.then(console.log('Search function response ' + getWeather(location)))
-			.then((res) => setResults(res.toString()))
+			.then((res) => setResults(res.data.weather[0].description))
+			.then(() => console.log('Results: ' + results))
 	}
 
 	return (

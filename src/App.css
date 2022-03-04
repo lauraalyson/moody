@@ -3,31 +3,25 @@
   src: url(./apercu-regular.woff);
 }
 
-@font-face {
-  font-family: Voyage;
-  src: url(./Voyage.woff);
-}
-
-
 html, body, .App {
   font-family: Apercu;
+  list-style: none;
 }
 
 .App {
-  background-color: #dbbd6a;
-  /* background-color: #fde092; */
-  /* background-color: #92b6fd; */
+  /* background-color: #dbbd6a; */
+  padding: 1em;
+  background-color: #92b6fd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 1vmin);
   color: #F9F7F2;
 }
 
 header {
-  font-family: Voyage;
   font-size: calc(10px + 10vmin);
 }
 
