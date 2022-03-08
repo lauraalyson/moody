@@ -18,11 +18,11 @@ function App() {
 
 			<div>
 				<label>Functionality includes:</label>
-				<li>search for a location</li>
+				<li>✔️ search for a location</li>
 				<li>get current time</li>
-				<li>get current weather</li>
+				<li>✔️ get current weather</li>
 				<li>get suggested playlist</li>
-				<li>top news headline from currLocation</li>
+				<li>✔️ top news headline from currLocation</li>
 				<li>Toggle structure - grid to loose shapes</li>
 			</div>
 			<br />

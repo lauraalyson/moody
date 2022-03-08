@@ -20,6 +20,7 @@ export const getNews = (location) => {
 		url: newsApiUrl + location + newsApiKey,
 	})
 }
+
 // Spotify Endpoint
 export const getMusicPlayer = () => {
 	return axios({
